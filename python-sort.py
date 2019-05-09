@@ -14,6 +14,10 @@ def displayRecords(prepend =''):
 def blankOut(byteNumber):
 	ram[byteNumber]='00000000'
 
+def update(byteNumber,newValue):
+	ram[byteNumber]=newValue;
+
+
 for x in range(12000):
 	bitlist = []
 	for i in range(0,8):
