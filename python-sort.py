@@ -12,7 +12,7 @@ def displayAllRecords():
 	i = 1
 	while(i < len(ram)):
 		print(str(i)+":"+str(ram[i]) + " "),
-		i++
+		i=i+1
 
 def displayRecords(prepend =''):
 	hundredth  = ''.join(str(v) for v in ram[99])
