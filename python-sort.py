@@ -25,8 +25,8 @@ for x in range(12000):
 displayRecords()
 
 #overwrite the 99th and 999th bytes with zeroes
-blankOut(99)
-blankOut(999)
+#blankOut(99)
+#blankOut(999)
 
 displayRecords('overwritten ')
 print('The array can hold a max of 1500 8-byte words for a total size of 12,000 bits.\n')
